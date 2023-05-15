@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>weither</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/all.min.css">
+    </head>
+
+    <body>
+
+        <div class="project vw-100 vh-100  ">
+            <div class="header w-100 d-flex align-items-center">
+                <div class="container d-flex align-items-center  justify-content-between ">
+                    <a href="index.htm" class="logo d-flex text-white text-decoration-none">
+                        <img src="imgs/logo@2x.png" class="img mt-2" alt="logo">
+                        <div class="text ps-3">
+                            <h3 class="h3">weather</h3>
+                            <small class="small">Taglink goes here</small>
+                        </div>
+                    </a>
+                    <div class="links">
+                        <ul class="d-flex list-unstyled ">
+                            <li class="li li-active ">Home</li>
+                            <li class="li">News</li>
+                            <li class="li">Live Cameras</li>
+                            <li class="li">Photos</li>
+                            <li class="li">Contact</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content w-100 h-50 d-flex ">
+                <div class="container position-relative">
+                    <div class="form form-control d-flex">
+                        <input id="search" type="text" name="search" class="form-control input text-white"
+                            placeholder="find your location...">
+                        <button id="find" class="btn text-white">Find</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container position-relative  w-100" id="data-Weather">
+                <div class="box box-day" id="box-fday">
+                    <div class="header-box px-3 d-flex justify-content-between px-3 py-1">
+                        <h4 id="fday"></h4>
+                        <h4 id="tar"></h4>
+                    </div>
+                    <div class="details py-4 px-3">
+                        <p id="city" class="fs-3 py-2 px-3"></p>
+                        <p id="degFone" class="deg fs-50 text-white"></p>
+                        <img id="Fimg" class="" width="110px" height="110px" src=" imgs/116.webp" alt="">
+                        <p id="fcaseWeather" class="text-info fs-5"></p>
+                        <div class="icons d-flex justify-content-between">
+                            <div class="icon d-flex">
+                                <img src="imgs/icon-umberella.png" alt="">
+                                <span class="px-2">20%</span>
+                            </div>
+                            <div class="icon d-flex">
+                                <img src="imgs/icon-wind.png" alt="">
+                                <span class="px-2">18kg</span>
+                            </div>
+                            <div class="icon d-flex">
+                                <img src="imgs/icon-compass.png" alt="">
+                                <span class="px-2">East</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box box-day" id="box-sday">
+                    <div class="header-box py-1 d-flex justify-content-center">
+                        <h4 id="sday">mon</h4>
+                    </div>
+                    <div class="details py-5 px-3 d-flex flex-column align-items-center">
+                        <img id="daytwo" src="imgs/113.webp" alt="" class="py-3">
+                        <p id="degtwob" class="deg fs-3 text-white"></p>
+                        <p id="degtwos" class="deg fa-5"></p>
+                        <p id="twoCase" class="text-info fs-5"></p>
+                    </div>
+                </div>
+                <div class="box box-day" id="box-tday">
+                    <div class="header-box py-1 d-flex justify-content-center">
+                        <h4 id="dayth"></h4>
+                    </div>
+                    <div class="details py-4 px-3 d-flex flex-column align-items-center">
+                        <img id="daythree" src="imgs/113.webp" alt="" class="py-3">
+                        <p id="degthb" class="deg fs-3 text-white"></p>
+                        <p id="degths" class="deg fa-5"></p>
+                        <p id="thCase" class="text-info fs-5"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer">
+                <div class="container ">
+                    <div class="row box ">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="form form-control d-flex align-items-center">
+                                <input type="email" name="search" class="form-control input text-white"
+                                    placeholder="enter your email to subscrib...">
+                                <button class="btn text-white">subscrib</button>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 justify-content-center d-flex align-items-center icons">
+                            <i class="fa-brands text-sm-center mx-1 fa-facebook"></i>
+                            <i class="fa-brands text-sm-center mx-1 fa-twitter"></i>
+                            <i class="fa-brands text-sm-center mx-1 fa-linkedin"></i>
+                            <i class="fa-brands text-sm-center mx-1 fa-github"></i>
+                        </div>
+                        <div class="col-sm-12 co">
+                            Copyright 2014 Company name. Designed by Themezy. All rights reserved
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/main.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+
+</html>
